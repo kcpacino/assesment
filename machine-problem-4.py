@@ -34,7 +34,7 @@ def displayImage(Image):
     empWin = imageWin("Image Processing", Image.getWidth(), Image.getHeight())
     Image.draw(empWin)
 
-img = Image('touken.jpg')
+img = Image( 'boy.jpg')
 sepia = originalScale(img)
 new = generalScale(Sepia, 1,2)
 displayImage(new)
